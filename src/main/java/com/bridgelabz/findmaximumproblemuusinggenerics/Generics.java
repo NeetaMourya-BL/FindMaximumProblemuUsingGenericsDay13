@@ -14,7 +14,6 @@ public class Generics <T extends Comparable <T>>{
 	}
 	public static <T extends Comparable<T>> T maximum(T x, T y, T z) {
 	    T max = x; // assume x is initially the largest
-
 	    if (y.compareTo(max) > 0)
 	      max = y; // y is the largest so far
 
